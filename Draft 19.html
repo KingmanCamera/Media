@@ -1,0 +1,248 @@
+git clone <repository_urhttps://github.com/KingmanCamera/Media<!DOCTYPE html>
+<html>
+<head>
+  <title>Kingman Camera</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css" integrity="sha512-16dTqP0bLsSXpIn2cGXuk+B+dTHUyq8IV9OHkrdsz7t4zSkXPZ6vmb5Rkw1C9eB6G/BMv3UIh3+n9VxJpDj2pQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <style>
+<header id="header"
+    <! - - Header Content - - >
+    <div class="overlay" id="style="foreground-image: url('path/to/your/overlay-image.png');"/Users/diceone/Desktop/K C C/1A WebCode/Web Media/KC OVERLAY.png">
+      <!-- Overlay content -->
+    </div>
+    h1, h2 {
+      font-family: Montserrat;
+    }
+    
+    .navbar-nav .nav-link {
+      color: #000;
+    }
+
+    .nav-links {
+      float: left;
+    }
+    
+    .contact-form {
+      float: right;
+    }
+
+    .section-spacing {
+      margin-bottom: 30px;
+    }
+
+    .package-image {
+      width: 300px;
+      height: 300px;
+      background-color: #ddd;
+    }
+
+    .caption {
+      display: none;
+      margin-top: 10px;
+      padding: 10px;
+      background-color: #f4f4f4;
+    }
+
+    .caption.show {
+      display: block;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0; /* Start off-screen */
+      width: 100%;
+      height: 100%;
+      max-width: 1920px; 
+      max-height: 1080px;
+      margin: 0 auto;
+      background-color: rgba(211, 239, 233, 0.25);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 1;
+      visibility: visible;
+      transition: opacity 1.5s ease, visibility 1.5s ease, left 1.5s ease;
+    }
+
+    .overlay.show {
+      opacity: 1;
+      visibility: visible;
+      left: 0; /* Move to final position */
+    }
+
+    .overlay-content {
+      color: #fff;
+      text-align: center;
+    }
+  </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js" integrity="sha512-+R+mKQp50OWMvKv73fZLBk2EnGq8NVGhntoZ5G5XISvxPcpn/nAKZSaPf5nn4f5H5k5xlIKBpVXVQYQD8J/6tA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    $(document).ready(function() {
+  $('.package-image').click(function() {
+    $(this).next('.caption').toggleClass('show');
+  });
+
+  // Show overlay after 2 seconds
+  setTimeout(function() {
+    $('#header-overlay').addClass('show');
+  }, 2000);
+
+  // Scroll down after 4 seconds
+  setTimeout(function() {
+    $('html, body').animate({
+      scrollTop: $("#packages").offset().top
+    }, 1000);
+  }, 4000);
+});
+
+  </script>
+</head>
+
+<body style="background-color: #F4F4F4;">
+  <header>
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/rrVLOYczX2g?autoplay=1&mute=1&loop=1" allow="autoplay; encrypted-media" allowfullscreen="true"></iframe>
+    </div>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Why Choose Kingman Camera</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Promo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Packages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="overlay">
+      <div class="">
+        <!-- Your branding animation or content here -->
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="about-us" data-aos="fade-up" class="section-spacing">
+      <h2>About Us</h2>
+      <p>At Kingman Camera, we pride ourselves on our exceptional expertise and track record of success. Founded by Scott Nolan, a visionary entrepreneur with over 15 years of extensive photography, videography, and editing experience, as well as a remarkable background in marketing. Scott's impressive achievements include creating a groundbreaking sales process for major corporations like Verizon and Centurylink. Through his strategic initiatives, he achieved unspeakable results, driving a remarkable 9X return on sales of combined billing services between the two corporations. This outstanding accomplishment not only fostered substantial increases in partnership, but also resulted in substantial bonuses for the hardworking employees who, in turn, successfully sold the products. With such a strong foundation in sales strategy and a dedication to delivering unparalleled media and imagery, Kingman Camera is poised to provide realtors with an exceptional level of service and expertise.</p>
+      <img src="https://github.com/KingmanCamera/Media/blob/main/Scott%20Head%20transparent.png?raw=true" width="300" height="300" alt="Placeholder image">
+    </section>
+
+    <section id="packages" data-aos="fade-up" class="section-spacing">
+      <h3>We make it fast and easy to find the right fit for your seller!</h3>
+<!-- PACKAGE OFFERS - CARDS -->
+
+<div id="accordion">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-4">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          <img src="https://github.com/KingmanCamera/Media/blob/main/Untitled-1.png?raw=true" class="card-img-top" alt="...">
+        </button>
+      </h5>
+    </div>
+    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+        <h5 class="card-title">PRO PACKAGE</h5>
+        <p class="card-text">
+          <ul>
+            <li>Full HDR Photo Coverage</li>
+            <li>Custom Media Kit</li>
+            <li>Video Slideshows</li>
+            <li>24-Hour Turnaround</li>
+          </ul>
+        </p>
+        <a href="https://kingmancamera.com/Services" class="btn btn-primary">Ready to Book?</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-4">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          <img src="https://github.com/KingmanCamera/Media/blob/main/Pro+.png?raw=true" class="card-img-top" alt="...">
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+        <h5 class="card-title">PRO+ PACKAGE</h5>
+        <p class="card-text">
+          <ul>
+            <li>Full HDR Photo Coverage</li>
+            <li>Custom Media Kit</li>
+            <li>Video Slideshows</li>
+            <li>24-Hour Turnaround</li>
+            <li>Aerial Photo Coverage</li>
+            <li>Listing Website & Portfolio</li>
+          </ul>
+        </p>
+        <a href="https://kingmancamera.com/Services" class="btn btn-primary">Ready to Book?</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-4">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          <img src="https://github.com/KingmanCamera/Media/blob/main/Elite.png?raw=true" class="card-img-top" alt="...">
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+        <h5 class="card-title">ELITE PACKAGE</h5>
+        <p class="card-text">
+          <ul>
+            <li>Everything in PRO+</li>
+            <li>
+
+    <section id="why-choose" data-aos="fade-up" class="section-spacing">
+      <h2>Why Choose Kingman Camera</h2>
+      <img src="https://github.com/KingmanCamera/Media/blob/main/Why%20Choose%20KC_.png?raw=true" alt="Why Choose Kingman Camera" width="100%" height="auto">
+    </section>
+
+    <section id="cta-section" data-aos="fade-up" class="section-spacing">
+      <!-- Your call to action section here -->
+    </section>
+
+    <!-- The rest of your HTML code here... -->
+  </main>
+
+  <footer>
+    <p>© 2023 Kingman Camera. All rights reserved.</p>
+    <p>Phone: 928-727-0321</p>
+    <p>Email: KingmanCamera@gmail.com</p>
+  </footer>
+
+  <script>
+    AOS.init({
+      offset: 120,
+      duration: 1000,
+    });
+  </script>
+</body>
+</html>
+l>
+git add .
+git commit -m "Initial commit"
+git push
